@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+    /* justify-content: center; */
+    width: 300px;
+    height: 800px;
+    align-content: center;    
+}
+.info{
+    /* background-image: url("https://tse4.mm.bing.net/th?id=OIP.lIN29thRSuqlWA3rOQE-EwHaEK&pid=Api&P=0&h=220"); */
+    /* background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+fieldset{
+    height:280px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* .sent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.fromm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    padding: 10px 10px;
+}
+
+.fromm>input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.fromm>a{
+    text-decoration: none;
+}
+#login{
+    background-color: rgb(76, 76, 216);
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    color: white;
+    
+}
+
+#new{
+    background-color: rgb(62, 182, 53);
+    width: 80%;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid lightgray;
+}
+
+h1{
+    color:rgb(76, 76, 216) ;
+}
+    </style>
+</head>
+<body>
+        <div class="info">
+            <div class="sent">
+            <h1>facebook</h1>
+            Connect with friends and the world
+            <br>
+            around you on Facebook.
+            </div>
+        <center><form>
+            <fieldset>
+            <div class="fromm">
+                <input type="text" placeholder="Email or phone number">
+            </div>
+            <div class="fromm">
+                <input type="text"  placeholder="Password">
+            </div>
+             <div class="fromm">
+                <button id="login">Login</button>
+             </div>
+            <div class="fromm">
+                <a href="#">Forgot Password?</a>
+            </div>
+                <hr>
+            <div class="fromm">
+                <button id="new">Create new account</button>
+            </div>
+            </fieldset>
+        </form></center>
+        </div>
+</body>
+</html>
